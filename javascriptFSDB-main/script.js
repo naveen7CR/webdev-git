@@ -291,9 +291,9 @@ console.log(arr[2])*/
 // // a.splice(2, 1, 10, 20, 30)
 // console.log(a)
 
-let arr=[1,2,3,4,5,6,7]
+// let arr=[1,2,3,4,5,6,7]
 
-console.log(arr)
+// console.log(arr)
 // const newarr=arr.map((ele)=>{
 //     return ele*2
 // })
@@ -304,7 +304,9 @@ console.log(arr)
 // const filteredData=arr.filter(ele=> ele>4);
 // console.log(filteredData)
 
-const sum=arr.reduce((acc, curr)=>{
-    return acc+curr
-}, 0)
-console.log(sum)
+// const sum=arr.reduce((acc, curr)=>{
+//     return acc+curr
+// }, 0)
+// console.log(sum)
+
+

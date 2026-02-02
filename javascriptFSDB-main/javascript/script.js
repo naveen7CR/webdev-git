@@ -97,13 +97,82 @@
 //     btn.removeEventListener('click',show)
 // })
 
-const form=document.querySelector("form")
-form.addEventListener('submit',(event)=>{
-    event.preventDefault()
-    console.log(event.target[0].value)
-    console.log(event.target[1].value)
-    console.log(event)
-    console.log("button Clicked")
-})
+// const form=document.querySelector("form")
+// form.addEventListener('submit',(event)=>{
+//     event.preventDefault()
+//     console.log(event.target[0].value)
+//     console.log(event.target[1].value)
+//     console.log(event)
+//     console.log("button Clicked")
+// })
 
-console.log("Updated code")
+// console.log("Updated code")
+
+// console.log("Sstarting Homework....");
+
+// setTimeout(() => {
+//     console.log("Homework Done!");
+//     console.log("Starting dinner.....");
+
+//     setTimeout(() => {
+//         console.log("Dinner done!");
+//         console.log("Getting ready to go out.....");
+
+//         setTimeout(() => {
+//             console.log("Going to the Playground: ");
+//         }, 1000); // after dinner
+//     }, 1500); // dinner time
+// }, 2000); // homework time
+
+// function finishHomework(callback) {
+//     console.log("Starting Homework......");
+//     setTimeout(() => {
+//         console.log("Homework Done!");
+//         callback();
+//     }, 2000);
+// }
+
+// function eatDinner(callback) {
+//     console.log("Starting Dinner...");
+//     setTimeout(() => {
+//         console.log("Dinner Done!");
+//         callback();
+//     }, 1500);
+// }
+
+// function goToPlayground() {
+//     console.log("Going to the playground!");
+// }
+
+
+// function finishHomework(callback) {
+//     console.log("Starting Homework......");
+//     setTimeout(() => {
+//         console.log("Homework Done!");
+//         callback();
+//     }, 2000);
+// }
+
+// function eatDinner(callback) {
+//     console.log("Starting Dinner...");
+//     setTimeout(() => {
+//         console.log("Dinner Done!");
+//         callback();
+//     }, 1500);
+// }
+
+// function goToPlayground() {
+//     console.log("Going to the playground!");
+// }
+
+// //  Chained in steps, but cleaner
+// finishHomework(() => {
+//     eatDinner(() => {
+//         goToPlayground();
+//     });
+// });
+
+
+
+
+
